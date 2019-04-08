@@ -1,0 +1,17 @@
+{
+  "name": "blogpost-dialogflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dialogflow-cli": "^1.0.4"
+  },
+  "devDependencies": {},
+	"scripts": {
+	  "dialogflow:export": "rm -rf dialogflow-agent/ && dialogflow-cli export --credentials ./gitignored/credentials.json dialogflow-agent",
+	  "dialogflow:import": "dialogflow-cli import --credentials ./gitignored/credentials.json dialogflow-agent"
+	},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
