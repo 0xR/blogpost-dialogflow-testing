@@ -4,13 +4,29 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "dialogflow-cli": "^1.0.4"
+    "actions-on-google": "^2.6.0",
+    "body-parser": "^1.18.3",
+    "dialogflow-cli": "^1.0.4",
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "^4.16.4"
   },
-  "devDependencies": {},
-	"scripts": {
-	  "dialogflow:export": "rm -rf dialogflow-agent/ && dialogflow-cli export --credentials ./gitignored/credentials.json dialogflow-agent",
-	  "dialogflow:import": "dialogflow-cli import --credentials ./gitignored/credentials.json dialogflow-agent"
-	},
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.11",
+    "@types/supertest": "^2.0.7",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "prettier": "^1.17.0",
+    "supertest": "^4.0.2",
+    "typescript": "^3.4.2"
+  },
+  "scripts": {
+    "dialogflow:export": "rm -rf dialogflow-agent/ && dialogflow-cli export --credentials ./gitignored/credentials.json dialogflow-agent",
+    "dialogflow:import": "dialogflow-cli import --credentials ./gitignored/credentials.json dialogflow-agent",
+    "format": "prettier --write *.ts *.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"

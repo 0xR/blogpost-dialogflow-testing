@@ -1,0 +1,36 @@
+{
+  "id": "aa6bb806-2ec0-4976-bc67-fa71f50c5374",
+  "name": "Example with Parameters",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0d64e22e-68a1-4f0e-8b92-fe71073f939b",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "exampleParameter",
+          "value": "$exampleParameter",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

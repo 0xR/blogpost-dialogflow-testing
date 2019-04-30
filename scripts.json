@@ -1,0 +1,6 @@
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dialogflow:pull": "rm -rf dialogflow-agent/ && dialogflow-cli export --credentials ./credentials.json dialogflow-agent",
+    "dialogflow:deploy": "dialogflow-cli import --credentials ./credentials.json dialogflow-agent",
+    "firebase:deploy": "firebase deploy --only functions"
+  },
