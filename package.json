@@ -8,7 +8,8 @@
     "body-parser": "^1.18.3",
     "dialogflow-cli": "^1.0.4",
     "dialogflow-fulfillment": "^0.6.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "ts-node": "^8.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -23,9 +24,11 @@
     "typescript": "^3.4.2"
   },
   "scripts": {
+    "test": "jest --watch",
     "dialogflow:export": "rm -rf dialogflow-agent/ && dialogflow-cli export --credentials ./gitignored/credentials.json dialogflow-agent",
     "dialogflow:import": "dialogflow-cli import --credentials ./gitignored/credentials.json dialogflow-agent",
-    "format": "prettier --write *.ts *.js"
+    "format": "prettier --write *.ts *.js",
+    "start": "ts-node server"
   },
   "keywords": [],
   "author": "",
