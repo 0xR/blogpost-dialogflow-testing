@@ -1,23 +1,18 @@
 {
-  "id": "b83ccd70-4234-4323-a9dd-eb2bef10d8d8",
-  "name": "Default Welcome Intent",
+  "id": "a8e51913-bb00-487a-9e3e-db61b68a3351",
+  "name": "HowAreYouIntent",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.welcome",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "en",
-          "speech": [
-            "Hello! How can I help you?",
-            "Good day! What can I do for you today?",
-            "Greetings! How can I assist?"
-          ]
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},
@@ -25,12 +20,8 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [
-    {
-      "name": "WELCOME"
-    }
-  ]
+  "events": []
 }

@@ -1,22 +1,13 @@
 {
-  "id": "aa6bb806-2ec0-4976-bc67-fa71f50c5374",
-  "name": "Example with Parameters",
+  "id": "73d5b747-d485-48df-9ede-dfad5c4e9071",
+  "name": "StoreDataIntent",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [],
-      "parameters": [
-        {
-          "id": "0d64e22e-68a1-4f0e-8b92-fe71073f939b",
-          "required": true,
-          "dataType": "@sys.any",
-          "name": "exampleParameter",
-          "value": "$exampleParameter",
-          "isList": false
-        }
-      ],
+      "parameters": [],
       "messages": [
         {
           "type": 0,
@@ -29,7 +20,7 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": []

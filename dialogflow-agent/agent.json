@@ -4,12 +4,15 @@
   "disableInteractionLogs": false,
   "disableStackdriverLogs": true,
   "googleAssistant": {
-    "googleAssistantCompatible": false,
+    "googleAssistantCompatible": true,
     "project": "demoagent-e2f92",
     "welcomeIntentSignInRequired": false,
     "startIntents": [],
     "systemIntents": [],
-    "endIntentIds": [],
+    "endIntentIds": [
+      "aa6bb806-2ec0-4976-bc67-fa71f50c5374",
+      "73d5b747-d485-48df-9ede-dfad5c4e9071"
+    ],
     "oAuthLinking": {
       "required": false,
       "grantType": "AUTH_CODE_GRANT"
@@ -21,7 +24,11 @@
   },
   "defaultTimezone": "Europe/Madrid",
   "webhook": {
-    "available": false,
+    "url": "https://083950b2.ngrok.io",
+    "headers": {
+      "": ""
+    },
+    "available": true,
     "useForDomains": false,
     "cloudFunctionsEnabled": false,
     "cloudFunctionsInitialized": false

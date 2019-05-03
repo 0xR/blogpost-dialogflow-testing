@@ -1,0 +1,46 @@
+[
+  {
+    "id": "2f4dec90-486f-4ba0-ae57-3b7b48d47043",
+    "data": [
+      {
+        "text": "Can you remember when I visited an intent?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5eb60517-3065-42ff-b8bf-647e4d6c96d8",
+    "data": [
+      {
+        "text": "Can you remember what I want?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "decb7305-9fbb-40fd-a755-0585a2b3875b",
+    "data": [
+      {
+        "text": "Set some context",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1fda02a0-6c71-4f2b-8be3-5b909027ff5f",
+    "data": [
+      {
+        "text": "Store some data",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]
