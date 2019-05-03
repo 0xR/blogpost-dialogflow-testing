@@ -1,18 +1,8 @@
 import {
-  Context,
-  Contexts,
   dialogflow,
   DialogflowConversation,
   Parameters,
 } from 'actions-on-google';
-
-interface CallParameters extends Parameters {
-  count?: number;
-}
-
-interface ExampleContext extends Contexts {
-  calls?: Context<CallParameters>;
-}
 
 interface ExampleParameters extends Parameters {
   exampleParameter?: string;

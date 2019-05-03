@@ -1,4 +1,4 @@
-import { expectResponse, getResponse } from "./test-helpers";
+import { expectResponse, getResponse } from './test-helpers';
 
 describe('How are you intent', () => {
   it('should respond', async () => {
